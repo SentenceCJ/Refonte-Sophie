@@ -1,0 +1,269 @@
+<!doctype html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Épithète accompagne professionnels, collectivités et particuliers dans la rédaction, la relecture, la correction et la réécriture de leurs textes."
+      name="description"
+    />
+    <title>Épithète — Écrivain public &amp; biographe</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=Spectral:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style-premium.css" rel="stylesheet" />
+    <style>
+      .hero h1 {
+        font-size: clamp(2.2rem, 5vw, 4.6rem) !important;
+      }
+
+      .eyebrow {
+        letter-spacing: 0.12em;
+      }
+
+      /* Correction du bug : on conserve le design d'origine,
+   avec des cartes verticales arrondies et non des cercles. */
+      .service-card {
+        border-radius: 24px !important;
+        aspect-ratio: auto !important;
+        min-height: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 20px;
+        overflow: visible !important;
+      }
+
+      .service-card h3 {
+        font-size: clamp(1rem, 1.35vw, 1.25rem);
+        line-height: 1.25;
+        padding: 0 8px;
+        text-align: center;
+      }
+
+      @media (max-width: 1100px) {
+        .service-card {
+          min-height: 260px;
+          height: 260px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .service-card {
+          min-height: 240px;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a aria-label="Retour à l'accueil" class="brand" href="index.html">
+        <img alt="Épithète" class="brand-logo" src="img/epithete3.png" />
+        <span>Des prestations d’écriture adaptées à vos besoins</span>
+      </a>
+      <nav aria-label="Navigation principale" class="main-nav">
+        <a href="index.html">Accueil</a>
+        <a href="blog.html">Qui suis-je ?</a>
+        <a href="menu.html">Prestations &amp; tarifs</a>
+        <a href="contact.html">Contact</a>
+        <a href="actualité.html">Actualités</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Écrivain public agréé de l’AEPF</p>
+          <h1>Entreprises, collectivités locales, particuliers</h1>
+          <p class="hero-text">
+            Parce que l’écrit est au cœur de notre quotidien, parce que les mots
+            nous révèlent, nous exposent, orientent le regard que nous portons
+            sur le monde, je vous accompagne dans la rédaction, la réécriture et
+            la correction de vos textes avec exigence, écoute et précision en
+            toute confidentialité.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contact.html"
+              >Confiez-moi vos écrits</a
+            >
+            <a class="btn btn-secondary" href="menu.html"
+              >Voir les prestations</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="intro-section">
+        <div class="intro-card">
+          <span class="section-kicker"
+            >Une plume au service de vos besoins</span
+          >
+          <h2>Des textes clairs, justes et adaptés à leurs destinataires.</h2>
+          <p>
+            Attentive à votre demande et soucieuse de la portée de chaque mot,
+            je mets mon expertise de la langue française au service de vos
+            projets personnels, administratifs et professionnels.
+          </p>
+        </div>
+      </section>
+      <section aria-labelledby="prestations-title" class="prestations-section">
+        <div class="section-heading light">
+          <span>Prestations</span>
+          <h2 id="prestations-title">Un accompagnement sur mesure</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon"><i class="fas fa-quote-left"></i></div>
+            <h3>Biographie</h3>
+          </article>
+          <article class="service-card">
+            <div class="service-icon"><i class="fas fa-newspaper"></i></div>
+            <h3>Texte de circonstance</h3>
+          </article>
+          <article class="service-card">
+            <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+            <h3>Courriers administratifs, privés, professionnels</h3>
+          </article>
+          <article class="service-card">
+            <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+            <h3>Relecture, correction, réécriture</h3>
+          </article>
+          <article class="service-card">
+            <div class="service-icon"><i class="fas fa-paperclip"></i></div>
+            <h3>Atelier d’écriture</h3>
+          </article>
+          <article class="service-card">
+            <div class="service-icon"><i class="fas fa-book"></i></div>
+            <h3>Permanence d’écrivain public</h3>
+          </article>
+        </div>
+        <div class="cta-inline">
+          <p>Un projet ? Besoin de mes services ?</p>
+          <a class="btn btn-light" href="contact.html">Contactez-moi</a>
+        </div>
+      </section>
+      <section aria-labelledby="news-title" class="news-section">
+        <div class="section-heading">
+          <span>Actualités</span>
+          <h2 id="news-title">Quelques actualités</h2>
+        </div>
+        <div class="news-grid">
+          <article class="news-card">
+            <p class="news-date">Samedi 1 juin 2024</p>
+            <h3>Assemblée Générale de l’AEPF</h3>
+            <p>
+              Quelle fierté d’appartenir à la première association française
+              d’écrivains publics...
+            </p>
+            <a href="actualité.html">En savoir plus</a>
+          </article>
+          <article class="news-card">
+            <p class="news-date">Juillet 2024</p>
+            <h3>L’écrivain public, une ressource-clé.</h3>
+            <p>
+              C’est une expertise croisée qui a été portée par l’AEPF et
+              l’ANLCI...
+            </p>
+            <a href="actualité.html">En savoir plus</a>
+          </article>
+          <article class="news-card">
+            <p class="news-date">Septembre 2024</p>
+            <h3>Collection de curiosités</h3>
+            <p>
+              Vous pourriez être interpellé, dans la rue ou confortablement
+              installé chez vous...
+            </p>
+            <a href="actualité.html">En savoir plus</a>
+          </article>
+        </div>
+      </section>
+      <section
+        aria-labelledby="prestations-title"
+        class="prestations-section"
+        style="height: 2rem"
+      >
+        <div class="section-heading light"></div>
+      </section>
+      <section aria-labelledby="credentials-title" class="credentials-section">
+        <div class="section-heading compact">
+          <span>Parcours &amp; engagements</span>
+          <h2 id="credentials-title">Références professionnelles</h2>
+        </div>
+        <div class="credentials-grid">
+          <article class="credential-item">
+            <div class="credential-logo">
+              <img
+                alt="Université Paris-IV Sorbonne"
+                src="img/sorbonneParis6.png"
+              />
+            </div>
+            <h3>Doctorat<br />Paris-IV Sorbonne</h3>
+          </article>
+          <article class="credential-item">
+            <a
+              href="./img/Charte déontologique AEPF.pdf"
+              rel="noopener"
+              target="_blank"
+            >
+              <div class="credential-logo">
+                <img alt="AEPF" src="img/aepf.png" />
+              </div>
+              <h3>Charte AEPF</h3>
+            </a>
+          </article>
+          <article class="credential-item">
+            <div class="credential-logo">
+              <img alt="CNED" src="img/cned.jpg" />
+            </div>
+            <h3>CNED</h3>
+          </article>
+          <article class="credential-item">
+            <div class="credential-logo">
+              <img alt="ISCRIPTURA" src="img/SCIPT.png" />
+            </div>
+            <h3>ISCRIPTURA</h3>
+          </article>
+          <article class="credential-item">
+            <a
+              href="./img/Code-éthique-2010.pdf"
+              rel="noopener"
+              target="_blank"
+            >
+              <div class="credential-logo">
+                <img alt="SNPCE" src="img/sncpe.jpg" />
+              </div>
+              <h3>SNPCE</h3>
+            </a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a href="mention.html">Mentions légales &amp; CGV</a>
+      <a
+        aria-label="LinkedIn"
+        class="linkedin"
+        href="https://www.linkedin.com/in/sophie-macheda-%C3%A9pith%C3%A8te-%C3%A9crivainpublic-biographe/?originalSubdomain=fr"
+        rel="noopener"
+        target="_blank"
+      >
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <p>
+        Site réalisé par
+        <a href="https://antoine-macheda.fr" rel="noopener" target="_blank"
+          >Antoine MACHEDA</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
